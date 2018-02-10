@@ -1,0 +1,12 @@
+[Unit]
+Description=R710 fancontroller
+
+[Service]
+Type=simple
+User=root
+ExecStart=/opt/r710-fancontroller-rust
+Restart=always
+RestartSec=1
+
+[Install]
+WantedBy=multi-user.target

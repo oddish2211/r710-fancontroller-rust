@@ -1,0 +1,8 @@
+[package]
+name = "r710-fancontroller-rust"
+version = "0.1.0"
+authors = ["Peter Verbrugge <oddish2211@gmail.com>"]
+
+[dependencies]
+regex = "*"
+lazy_static = "*"
